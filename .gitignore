@@ -1,0 +1,38 @@
+--- Python Virtual Environments ---
+Ignore the virtual environment folder, regardless of its name
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+--- Python Cache ---
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+--- Vector Databases ---
+Ignore the generated vector stores as they can be large and are built from source
+vectorstores/
+
+--- Node.js Dependencies ---
+Ignore the massive node_modules folder for the extension
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+--- VS Code Extension Build Artifacts ---
+Ignore the packaged extension file; this should be a release, not in source control
+*.vsix
+
+--- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+--- VS Code Workspace Settings ---
+Ignore user-specific workspace settings
+.vscode/

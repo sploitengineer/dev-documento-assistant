@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2020",
+		"outDir": "out",
+		"lib": [
+			"es2020",
+			"dom"
+		],
+		"sourceMap": true,
+		"rootDir": "src",
+		"strict": true,
+		"esModuleInterop": true, /* Enables emit interoperability between CommonJS and ES Modules. */
+		"skipLibCheck": true /* Skip type checking of declaration files. */
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
+

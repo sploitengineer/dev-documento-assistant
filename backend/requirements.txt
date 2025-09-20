@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-chroma
+sentence-transformers
+flask
+flask-cors
+PyMuPDF
